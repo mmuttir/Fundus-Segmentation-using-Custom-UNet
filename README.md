@@ -1,6 +1,8 @@
 # Fundus Image Segmentation using Deep Learning
 
-This project implements a custom UNet model to perform segmentation on fundus images. The model is trained using the DRIVE dataset and evaluated using various evaluation metrics.
+Fundus segmentation is the task of identifying and separating the optic disc and/or the blood vessels present in fundus images. Fundus images are images of the retina, which can be captured using specialized cameras. The optic disc is the point where the blood vessels enter and exit the retina, and it appears as a bright circular shape in the center of the fundus image. Accurate segmentation of the optic disc and blood vessels is essential for diagnosis and monitoring of various retinal diseases such as diabetic retinopathy, glaucoma, and age-related macular degeneration.
+
+Fundus segmentation has significant importance in the field of ophthalmology as it can aid in the diagnosis and management of various retinal diseases. Early detection of such diseases can lead to better prognosis and treatment outcomes. Fundus segmentation can also be used for tracking disease progression and evaluating treatment efficacy. Automated segmentation techniques can save time and effort for clinicians and reduce the subjectivity associated with manual segmentation. Therefore, the development of accurate and efficient fundus segmentation algorithms using deep learning has become an active area of research in recent years.
 
 ## Dataset Preparation
 
