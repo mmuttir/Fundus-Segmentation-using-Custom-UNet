@@ -8,7 +8,15 @@ In the first step, I loaded and preprocessed the DRIVE dataset using the code in
 
 ## Model Architecture
 
-I created a custom UNet model with four encoder and decoder blocks. The model was designed to take in an input image and output a corresponding binary mask indicating the pixels that belong to the optic disc.
+I created a custom UNet model with four encoder and decoder blocks. Compared to the standard UNet architecture, we made the following modifications:
+
+1. We used 4 encoder and decoder blocks instead of the usual 3 blocks to capture more complex features and increase the model's capacity.
+2. We added dropout layers after each pooling operation to prevent overfitting and improve generalization.
+3. We used 5x5 convolution filters instead of the usual 3x3 filters to capture larger spatial context and improve the model's ability to distinguish between similar features.
+4. We used padding='same' in all convolution layers to maintain the spatial dimensions of the input and output feature maps, which simplifies the upsampling process in the decoder blocks.
+
+These modifications were made to adapt the UNet architecture to the specific requirements of fundus image segmentation and improve the model's performance on this task.
+
 
 ## Model Training
 
