@@ -6,7 +6,7 @@ Fundus segmentation has significant importance in the field of ophthalmology as 
 
 ## Dataset Preparation
 
-In the first step, I loaded and preprocessed the DRIVE dataset using the code in Chunk 1 of the Jupyter notebook. The dataset was split into training and validation sets and preprocessed to a common size.
+In the first step, I loaded and preprocessed the DRIVE dataset and split the data into training and validation sets and preprocessed to a common size.
 
 ## Model Architecture
 
