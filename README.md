@@ -35,6 +35,16 @@ The best saved model was loaded and made predictions on the validation set. I al
 ## Hyperparameter Tuning
 I performed hyperparameter tuning using GridSearchCV from scikit-learn library. I explored the effect of different hyperparameters such as the number of filters, dropout rate, and learning rate on the model's performance.
 
+## Results:
+
+The below images shows the:
+
+- Input image
+- Ground truth
+- Predicted mask
+
+[!image](https://github.com/mmuttir/Fundus-Segmentation-using-Custom-UNet/blob/main/01_test_0.png)
+
 ## Conclusion
 
 This project demonstrated the use of deep learning for fundus image segmentation. I implemented a custom UNet model and trained it on the DRIVE dataset, achieving promising results on the validation set. Additionally, I explored various evaluation metrics and performed hyperparameter tuning to optimize the model's performance. This project can serve as a starting point for further research in the field of medical image analysis.
