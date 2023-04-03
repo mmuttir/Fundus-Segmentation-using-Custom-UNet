@@ -23,6 +23,8 @@ I created a custom UNet model with four encoder and decoder blocks. Compared to 
 
 These modifications were made to adapt the UNet architecture to the specific requirements of fundus image segmentation and improve the model's performance on this task.
 
+![The traditional UNet architecture] (https://github.com/mmuttir/Fundus-Segmentation-using-Custom-UNet/blob/main/u-net-architecture.png) 
+(Image taken from UNet's research article)
 
 ## Model Training
 
