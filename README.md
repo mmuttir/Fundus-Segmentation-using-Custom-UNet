@@ -43,7 +43,7 @@ The below images shows the:
 - Ground truth
 - Predicted mask
 
-(https://github.com/mmuttir/Fundus-Segmentation-using-Custom-UNet/blob/main/01_test_0.png)
+![Result Image](https://github.com/mmuttir/Fundus-Segmentation-using-Custom-UNet/blob/main/01_test_0.png)
 
 ## Conclusion
 
