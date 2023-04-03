@@ -4,6 +4,10 @@ Fundus segmentation is the task of identifying and separating the optic disc and
 
 Fundus segmentation has significant importance in the field of ophthalmology as it can aid in the diagnosis and management of various retinal diseases. Early detection of such diseases can lead to better prognosis and treatment outcomes. Fundus segmentation can also be used for tracking disease progression and evaluating treatment efficacy. Automated segmentation techniques can save time and effort for clinicians and reduce the subjectivity associated with manual segmentation. Therefore, the development of accurate and efficient fundus segmentation algorithms using deep learning has become an active area of research in recent years.
 
+## DRIVE Dataset:
+
+The ISIC-2018 dataset is used for conducting this project. The dataset contains the 2596 pairs of images and masks. All of these images are of different shapes and contains a variety of skin lesions.
+
 ## Dataset Preparation
 
 In the first step, I loaded and preprocessed the DRIVE dataset and split the data into training and validation sets and preprocessed to a common size.
